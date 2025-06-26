@@ -138,6 +138,9 @@ const serifMap = {
 
   return text.split('').map(c => serifMap[c] || c).join('');
 }
+
+
+/*
 function square(text) {
 const squaredMap = {
   A: '\u{1F150}', B: '\u{1F151}', C: '\u{1F152}', D: '\u{1F153}', E: '\u{1F154}',
@@ -168,6 +171,10 @@ const squaredMap = {
 
   return [...text].map(ch => squaredMap[ch] || ch).join('');
 }
+*/
+
+
+
 function line(text) {
 const doubleStruckMap = {
   A: '\u{1D538}', B: '\u{1D539}', C: '\u{2102}',  D: '\u{1D53B}', E: '\u{1D53C}',
@@ -323,6 +330,8 @@ function cancle(text) {
     .map(char => char + strikethroughChar)
     .join('');
 }
+
+/*
 function circle(text) {
   const emptySquareMap = {
     A: '\u{1F170}', B: '\u{1F171}', C: '\u{1F172}', D: '\u{1F173}', E: '\u{1F174}',
@@ -344,6 +353,9 @@ function circle(text) {
     return ch;
   }).join('');
 }
+*/
+
+
 function tatoo(text) {
     const frakturMap = {
         // Uppercase letters
