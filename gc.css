@@ -1,0 +1,142 @@
+*{
+  margin:0px;
+  padding: 0px;
+  text-decoration: none;
+}
+body{
+  background:white;
+  display :flex ;
+  flex-direction: column;
+  align-items: center;
+  background: #dfd;
+  /*overflow-y: scroll;*/
+}
+
+
+.hadding{
+  position :relative;
+  flex-shrink: 0;
+  width: 100vw;
+  height:10vh;
+  background:green;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  color :yellow;
+}
+.hadding img{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  background-size:cover;
+  margin:0px 10px;
+}
+
+
+.option{
+  flex-shrink: 0;
+  width: 100vw;
+  height: auto;
+  background:#cfc;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.option .btn{  
+  width: 60px;
+  height: 30px;
+  background: #afa;
+  margin:10px 5px;
+  border: none;
+  border-radius: 10px;
+  flex-shrink: 0;
+  border:1px solid #399;
+}
+.btn:nth-child(1){
+  background:green;
+  color:white;
+}
+
+
+.input_field{
+  flex-shrink: 0;
+  width: 100vw;
+  min-height: 100px;
+  height: auto;
+  background: #efe;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.input_field  #usrin{
+  width: 100vw;
+  max-width: 300px;
+  min-height:70px;
+  height:auto;
+  max-height: 120px;
+  margin: 5px;
+  border: none;
+  padding: 10px;
+  outline: 2px solid green;
+  background: #dfd;
+ }
+.input_field  #output{
+  padding: 10px;
+  width: 100vw;
+  max-width: 300px;
+  height:200px;
+  border: 2px solid green;
+  margin: 5px;
+  background: #dfd;
+  word-wrap: break-word; 
+  overflow: scroll;
+  text-align: left;
+}
+.input_field p{
+  width: 90%;
+  margin: 10px;
+}
+
+
+.try{
+  flex-shrink: 0;
+  width:100vw;
+  background: #efe;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.try h2{
+  margin: 5px 0px 10px 0px;
+}
+.try div{
+  width: 90%;
+  background: #afa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid green;
+}
+.try div a img{
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+
+
+.good{
+  color:green;
+}
+.alert{
+  color:red;
+}
+
+
